@@ -33,7 +33,9 @@ welcome = function(){
       k.innerHTML='131/135';
     }else if(y.value==12){
       k.innerHTML='1091,1291';
-    }
+    }else{
+        k.innerHTML='please enter choices from 1-12';
+    }       
     }
     var n = document.createElement("INPUT");
     menu = function(){
